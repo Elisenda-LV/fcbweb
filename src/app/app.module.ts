@@ -8,7 +8,8 @@ import { HttpClientModule, HttpClient } from '@angular/common/http'
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core'
 import { TranslateHttpLoader } from '@ngx-translate/http-loader'
 import { CoreModule } from './core/core.module'
-import { PlayersModule } from './modules/players/players.module'
+import { PlayersModule } from './modules/players/players.module';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap'
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -32,6 +33,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     ReactiveFormsModule,
     FormsModule,
     CommonModule,
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
