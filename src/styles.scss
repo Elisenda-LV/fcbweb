@@ -1,2 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+$primary: #1b0775;
+$secondary: #5b0415;
+$info: rgb(247, 217, 49);
+
 @import 'bootstrap/scss/bootstrap';
+
+.custom-gradient {
+    background: #1b0775;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #1b0775, #5b0415);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #1b0775, #5b0415); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
