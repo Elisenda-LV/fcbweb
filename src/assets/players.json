@@ -1,5 +1,5 @@
 {
-    "jugadores": [
+    "players": [
         {
             "id": 1,
             "dorsal": 1,
@@ -21,7 +21,8 @@
             "porteriaCeroTemporadaActual": 17,
             "paradasTemporadaActual": 96,
             "titular": "Portero sobrio y con grandes reflejos, destaca por el control aéreo y el dominio del juego de pies",
-            "comentario": "Marc-André ter Stegen firma como portero del FC Barcelona en verano de 2014 procedente del Borussia Mönchengladbach. Nacido el día 30 de abril de 1992 en la localidad de Mönchengladbach, el alemán despuntaba desde muy joven como uno de los porteros más prometedores del continente europeo."
+            "comentario": "Marc-André ter Stegen firma como portero del FC Barcelona en verano de 2014 procedente del Borussia Mönchengladbach. Nacido el día 30 de abril de 1992 en la localidad de Mönchengladbach, el alemán despuntaba desde muy joven como uno de los porteros más prometedores del continente europeo.",
+            "imgUrl":"https://www.fcbarcelona.com/photo-resources/2023/10/03/065aed35-fbcb-441a-9951-b35e38ecd654/01-MARC-ANDRE_TER_STEGEN.jpg?width=470&height=470"
         },
         {
             "id": 2,
@@ -32,7 +33,7 @@
             "peso": 64,
             "altura": 177,
             "debut": "2020-09-27",
-            "posicion": "Lateral derecho",
+            "posicion": "Defensa",
             "historicoPartidos": 41,
             "historicoGoles": 2,
             "historicoAsistencias": 3,
@@ -44,7 +45,8 @@
             "porteriaCeroTemporadaActual": 0,
             "paradasTemporadaActual": 0,
             "titular": "Lateral derecho rápido y con gran capacidad de desborde, destaca por su capacidad para incorporarse al ataque",
-            "comentario": "Sergiño Dest se convierte en jugador del FC Barcelona en verano de 2020 procedente del Ajax de Ámsterdam. Nacido el 3 de noviembre de 2000 en la localidad de Almere, en los Países Bajos, el lateral derecho destaca por su velocidad y capacidad para incorporarse al ataque."
+            "comentario": "Sergiño Dest se convierte en jugador del FC Barcelona en verano de 2020 procedente del Ajax de Ámsterdam. Nacido el 3 de noviembre de 2000 en la localidad de Almere, en los Países Bajos, el lateral derecho destaca por su velocidad y capacidad para incorporarse al ataque.",
+            "imgUrl":"https://www.fcbarcelona.com/photo-resources/2023/10/03/57225d94-0fe9-42a4-9123-5499e390c727/jugador_fitxa-cancelo.jpg?width=470&height=470"
         },
         {
             "id": 3,
@@ -55,7 +57,7 @@
             "peso": 85,
             "altura": 194,
             "debut": "2008-08-31",
-            "posicion": "Central",
+            "posicion": "Defensa",
             "historicoPartidos": 566,
             "historicoGoles": 48,
             "historicoAsistencias": 23,
@@ -67,7 +69,8 @@
             "porteriaCeroTemporadaActual": 0,
             "paradasTemporadaActual": 0,
             "titular": "Lateral contundente y con gran capacidad de anticipación, destaca por su capacidad para sacar el balón jugado",
-            "comentario": "Destaca por su contundencia y capacidad para sacar el balón jugado."
+            "comentario": "Destaca por su contundencia y capacidad para sacar el balón jugado.",
+            "imgUrl":"https://www.fcbarcelona.com/photo-resources/2023/10/03/e80f5515-86fd-4f2f-98ea-964754a3700f/mini_28-BALDE.jpg?width=470&height=470"
         },
         {
             "id": 4,
@@ -78,7 +81,7 @@
             "peso": 85,
             "altura": 194,
             "debut": "2008-08-31",
-            "posicion": "Central",
+            "posicion": "Defensa",
             "historicoPartidos": 566,
             "historicoGoles": 48,
             "historicoAsistencias": 23,
@@ -90,7 +93,8 @@
             "porteriaCeroTemporadaActual": 0,
             "paradasTemporadaActual": 0,
             "titular": "Central contundente y con gran capacidad de anticipación, destaca por su capacidad para sacar el balón jugado",
-            "comentario": "Destaca por su contundencia y capacidad para sacar el balón jugado."
+            "comentario": "Destaca por su contundencia y capacidad para sacar el balón jugado.",
+            "imgUrl":"https://www.fcbarcelona.com/photo-resources/2023/10/03/056cd416-68bc-4e1b-b28d-3aad786991aa/04-RONALD_ARAUJO_.jpg?width=470&height=470"
         },
         {
             "id": 5,
@@ -101,7 +105,7 @@
             "peso": 76,
             "altura": 189,
             "debut": "2008-08-13",
-            "posicion": "Centrocampista",
+            "posicion": "Defensa",
             "historicoPartidos": 617,
             "historicoGoles": 15,
             "historicoAsistencias": 45,
@@ -113,7 +117,8 @@
             "porteriaCeroTemporadaActual": 0,
             "paradasTemporadaActual": 0,
             "titular": "Centrocampista con gran capacidad de recuperación y visión de juego, destaca por su capacidad para sacar el balón jugado",
-            "comentario": "Destaca por su contundencia y capacidad para sacar el balón jugado."
+            "comentario": "Destaca por su contundencia y capacidad para sacar el balón jugado.",
+            "imgUrl":"https://www.fcbarcelona.com/photo-resources/2023/10/03/c944cb0d-785f-4fb8-8df8-d66db299ae29/jugador_fitxa_inigo_2023.jpg?width=470&height=470"
         },
         {
             "id": 21,
@@ -136,7 +141,8 @@
             "porteriaCeroTemporadaActual": 0,
             "paradasTemporadaActual": 0,
             "titular": "Centrocampista con gran capacidad de recuperación y visión de juego, destaca por su capacidad para sacar el balón jugado",
-            "comentario": "Destaca por su contundencia y capacidad para sacar el balón jugado."
+            "comentario": "Destaca por su contundencia y capacidad para sacar el balón jugado.",
+            "imgUrl":"https://www.fcbarcelona.com/photo-resources/2023/10/03/8faa89e1-0979-4adf-a2f7-ef5fe5ac8882/21-FRENKIE_DE_JONG.jpg?width=470&height=470"
         },
         {
             "id": 6,
@@ -159,7 +165,8 @@
             "porteriaCeroTemporadaActual": 0,
             "paradasTemporadaActual": 0,
             "titular": "Centrocampista con gran capacidad de recuperación y visión de juego, destaca por su capacidad para sacar el balón jugado",
-            "comentario": "Destaca por su contundencia y capacidad para sacar el balón jugado."
+            "comentario": "Destaca por su contundencia y capacidad para sacar el balón jugado.",
+            "imgUrl":"https://www.fcbarcelona.com/photo-resources/2023/10/03/31981b2e-6770-4553-b735-214c75b62fb8/30-GAVI_.jpg?width=470&height=470"
         },
         {
             "id": 7,
@@ -182,7 +189,8 @@
             "porteriaCeroTemporadaActual": 0,
             "paradasTemporadaActual": 0,
             "titular": "Centrocampista con gran capacidad de recuperación y visión de juego, destaca por su capacidad para sacar el balón jugado",
-            "comentario": "Destaca por su contundencia y capacidad para sacar el balón jugado."
+            "comentario": "Destaca por su contundencia y capacidad para sacar el balón jugado.",
+            "imgUrl":"https://www.fcbarcelona.com/photo-resources/2023/10/03/2490df3e-e60a-4b90-adac-55a6d4a5ac49/11-FERRAN_TORRES.jpg?width=470&height=470"
         },
         {
             "id": 8,
@@ -205,7 +213,8 @@
             "porteriaCeroTemporadaActual": 0,
             "paradasTemporadaActual": 0,
             "titular": "Centrocampista con gran capacidad de recuperación y visión de juego, destaca por su capacidad para sacar el balón jugado",
-            "comentario": "Destaca por su contundencia y capacidad para sacar el balón jugado."
+            "comentario": "Destaca por su contundencia y capacidad para sacar el balón jugado.",
+            "imgUrl":"https://www.fcbarcelona.com/photo-resources/2023/10/03/312eb594-c79b-4c68-8f52-c057faeaf4ca/08-PEDRI.jpg?width=470&height=470"
         },
         {
             "id": 9,
@@ -228,7 +237,8 @@
             "porteriaCeroTemporadaActual": 0,
             "paradasTemporadaActual": 0,
             "titular": "Delantero con gran capacidad goleadora y visión de juego, destaca por su capacidad para sacar el balón jugado",
-            "comentario": "Destaca por su contundencia y capacidad goleadora."
+            "comentario": "Destaca por su contundencia y capacidad goleadora.",
+            "imgUrl":"https://www.fcbarcelona.com/photo-resources/2023/10/03/828a7bce-f622-464d-8513-7108c6e63fe8/09-ROBERT_LEWANDOWSKI.jpg?width=470&height=470"
         },
         {
             "id": 11,
@@ -251,7 +261,8 @@
             "porteriaCeroTemporadaActual": 0,
             "paradasTemporadaActual": 0,
             "titular": "Delantero con gran capacidad goleadora",
-            "comentario": "Destaca por su contundencia y capacidad goleadora."
+            "comentario": "Destaca por su contundencia y capacidad goleadora.",
+            "imgUrl":"https://www.fcbarcelona.com/photo-resources/2023/10/03/8accdb83-c06d-4dcd-bbd1-c9978690b5cd/22-RAPHINHA.jpg?width=470&height=470"
         },
         {
             "id": 13,
@@ -274,7 +285,8 @@
             "porteriaCeroTemporadaActual": 0,
             "paradasTemporadaActual": 10,
             "titular": "Portero con gran capacidad de reflejos",
-            "comentario": "Destaca por su contundencia y capacidad para sacar el balón jugado."
+            "comentario": "Destaca por su contundencia y capacidad para sacar el balón jugado.",
+             "imgUrl":"https://www.fcbarcelona.com/photo-resources/2023/10/03/bd8d767c-875f-45f5-a67b-4547b2393119/26-INAKI_PENA.jpg?width=470&height=470"
         },
         {
             "id": 20,
@@ -297,7 +309,8 @@
             "porteriaCeroTemporadaActual": 0,
             "paradasTemporadaActual": 0,
             "titular": "Centrocampista con gran capacidad de recuperación y visión de juego, destaca por su capacidad para sacar el balón jugado",
-            "comentario": "Destaca por su contundencia y capacidad para sacar el balón jugado."
+            "comentario": "Destaca por su contundencia y capacidad para sacar el balón jugado.",
+            "imgUrl":"https://www.fcbarcelona.com/photo-resources/2023/10/03/d07ea506-60fb-4beb-a016-ba22d7a18b6e/20-S_ROBERTO.jpg?width=470&height=470"
         },
         {
             "id": 22,
@@ -320,7 +333,8 @@
             "porteriaCeroTemporadaActual": 0,
             "paradasTemporadaActual": 0,
             "titular": "Centrocampista con gran capacidad de recuperación y visión de juego, destaca por su capacidad para sacar el balón jugado",
-            "comentario": "Destaca por su contundencia y capacidad para sacar el balón jugado."
+            "comentario": "Destaca por su contundencia y capacidad para sacar el balón jugado.",
+            "imgUrl":"https://www.fcbarcelona.com/photo-resources/2023/10/03/0f384b06-9ea4-4b26-8a21-02f23d564463/jugador_fitxa-gundogan.jpg?width=470&height=470"
         },
         {
             "id": 18,
@@ -343,7 +357,8 @@
             "porteriaCeroTemporadaActual": 0,
             "paradasTemporadaActual": 0,
             "titular": "Centrocampista con gran capacidad de recuperación y visión de juego, destaca por su capacidad para sacar el balón jugado",
-            "comentario": "Destaca por su contundencia y capacidad para sacar el balón jugado."
+            "comentario": "Destaca por su contundencia y capacidad para sacar el balón jugado.",
+            "imgUrl":"https://www.fcbarcelona.com/photo-resources/2023/10/03/81c5ac8a-5152-46e8-af05-91468ce009e5/jugador_fitxa-oriol_romeu.jpg?width=470&height=470"
         },
         {
             "id": 16,
@@ -366,7 +381,8 @@
             "porteriaCeroTemporadaActual": 0,
             "paradasTemporadaActual": 0,
             "titular": "Centrocampista con gran capacidad de recuperación y visión de juego, destaca por su capacidad para sacar el balón jugado",
-            "comentario": "Destaca por su contundencia y capacidad para sacar el balón jugado."
+            "comentario": "Destaca por su contundencia y capacidad para sacar el balón jugado.",
+            "imgUrl":"https://www.fcbarcelona.com/photo-resources/2024/02/01/4594c085-fa9b-4900-816a-8e7c99e2e625/mini_16-FERMIN.jpg?width=470&height=470"
         },
         {
             "id": 17,
@@ -389,7 +405,8 @@
             "porteriaCeroTemporadaActual": 0,
             "paradasTemporadaActual": 0,
             "titular": "Defensa con gran capacidad de recuperación y visión de juego, destaca por su capacidad para sacar el balón jugado",
-            "comentario": "Destaca por su contundencia y capacidad para sacar el balón jugado."
+            "comentario": "Destaca por su contundencia y capacidad para sacar el balón jugado.",
+            "imgUrl":"https://www.fcbarcelona.com/photo-resources/2023/10/03/89c528ee-1f80-45af-a555-61169e4d07fe/17-MARCOS_ALONSO.jpg?width=470&height=470"
         },
         {
             "id": 19,
@@ -412,7 +429,8 @@
             "porteriaCeroTemporadaActual": 0,
             "paradasTemporadaActual": 0,
             "titular": "Delantero con gran capacidad de recuperación y visión de juego, destaca por su capacidad para sacar el balón jugado",
-            "comentario": "Destaca por su contundencia y capacidad para sacar el balón jugado."
+            "comentario": "Destaca por su contundencia y capacidad para sacar el balón jugado.",
+            "imgUrl":"https://www.fcbarcelona.com/photo-resources/2024/01/05/1f5ecf24-2a9e-4b96-af12-d22412ee58d2/19-VITOR_ROQUE.jpg?width=470&height=470"
         },
         {
             "id": 23,
@@ -435,7 +453,8 @@
             "porteriaCeroTemporadaActual": 0,
             "paradasTemporadaActual": 0,
             "titular": "Defensa con gran capacidad de recuperación y visión de juego, destaca por su capacidad para sacar el balón jugado",
-            "comentario": "Destaca por su contundencia y capacidad para sacar el balón jugado."
+            "comentario": "Destaca por su contundencia y capacidad para sacar el balón jugado.",
+            "imgUrl":"https://www.fcbarcelona.com/photo-resources/2023/10/03/f776072c-2897-466a-bf43-f088fffa1234/23-JULES_KOUNDE.jpg?width=470&height=470"
         },
         {
             "id": 14,
@@ -458,7 +477,8 @@
             "porteriaCeroTemporadaActual": 0,
             "paradasTemporadaActual": 0,
             "titular": "Delantero con gran capacidad de recuperación y visión de juego, destaca por su capacidad para sacar el balón jugado",
-            "comentario": "Destaca por su contundencia y capacidad para sacar el balón jugado."
+            "comentario": "Destaca por su contundencia y capacidad para sacar el balón jugado.",
+            "imgUrl":"https://www.fcbarcelona.com/photo-resources/2023/10/03/a59c808c-1068-45bd-a861-db3d785e200a/jugador_fitxa-felix.jpg?width=470&height=470"
         },
         {
             "id": 15,
@@ -481,7 +501,8 @@
             "porteriaCeroTemporadaActual": 0,
             "paradasTemporadaActual": 0,
             "titular": "Defensa con gran capacidad de recuperación y visión de juego, destaca por su capacidad para sacar el balón jugado",
-            "comentario": "Destaca por su contundencia y capacidad para sacar el balón jugado."
+            "comentario": "Destaca por su contundencia y capacidad para sacar el balón jugado.",
+            "imgUrl":"https://www.fcbarcelona.com/photo-resources/2023/10/03/414458b8-82b7-4913-a1ea-839410f6e10f/15-ANDREAS_CHRISTENSEN.jpg?width=470&height=470"
         }
         
     ]

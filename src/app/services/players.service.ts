@@ -12,7 +12,8 @@ export class PlayersService {
   getPlayers(): Promise<Player[]> {
     return fetch('assets/players.json')
       .then(response => response.json())
-      .then(data => data);
+      .then(data => data.players);
+      
   }
 
   //servicio para extraer los datos de un jugador en especifico

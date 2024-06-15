@@ -20,4 +20,5 @@ export interface Player {
     paradasTemporadaActual: number;
     titular: string;
     comentario: string;
+    imgUrl: string;
 }
