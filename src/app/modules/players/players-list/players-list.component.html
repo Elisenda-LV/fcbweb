@@ -1,7 +1,7 @@
 
   
-<div class="row pt-5 px-5">
-  <h1>primer equipo</h1>
+<div class="row border pt-5 px-5">
+  <h1 class="pt-5">Primer equipo</h1>
   <ul class="nav nav-underline justify-content-center pt-5 px-4">
     <li class="nav-item  me-5">
       <a class="nav-link" [routerLink]="[]"  fragment="porteros">Porteros</a>
@@ -19,14 +19,16 @@
 </div>
 
 
-<div class="row p-5"  id="porteros">
+
+<div class="row bg-light p-5"  id="porteros">
   <h3 class="py-3">Porteros</h3>
   <ng-container *ngFor="let player of playersList">
     <div class="col-sm-4" *ngIf="player.posicion === 'Portero'">
       <div class="card" (click)="viewPlayer(player.id)" >
           <img [src]="player.imgUrl" class="card">
-          <div class="card-img-overlay d-flex align-items-end">
-            <h5 class="card-title text-white">{{ player.nombre }}</h5>
+          <div class="gradient-background p-3">
+            <h5 class="card-title">{{ player.dorsal }} {{ player.nombre }}</h5>
+            <p class="card-text">{{ player.posicion }}</p>
           </div>
       </div>
     </div>
@@ -39,8 +41,9 @@
     <div class="col-sm-4" *ngIf="player.posicion === 'Defensa'">
       <div class="card"  (click)="viewPlayer(player.id)">
         <img [src]="player.imgUrl" class="card">
-        <div class="card-img-overlay d-flex align-items-end">
-          <h5 class="card-title text-white">{{ player.nombre }}</h5>
+        <div class="gradient-background p-3">
+          <h5 class="card-title">{{ player.dorsal }} {{ player.nombre }}</h5>
+          <p class="card-text">{{ player.posicion }}</p>
         </div>
       </div>
     </div>
@@ -53,8 +56,9 @@
     <div class="col-sm-4" *ngIf="player.posicion === 'Centrocampista'">
       <div class="card"  (click)="viewPlayer(player.id)">
         <img [src]="player.imgUrl" class="card">
-        <div class="card-img-overlay d-flex align-items-end">
-          <h5 class="card-title text-white">{{ player.nombre }}</h5>
+        <div class="gradient-background p-3">
+          <h5 class="card-title">{{ player.dorsal }} {{ player.nombre }}</h5>
+          <p class="card-text">{{ player.posicion }}</p>
         </div>
       </div>
     </div>
@@ -67,8 +71,9 @@
     <div class="col-sm-4" *ngIf="player.posicion === 'Delantero'">
       <div class="card"  (click)="viewPlayer(player.id)">
         <img [src]="player.imgUrl" class="card">
-        <div class="card-img-overlay d-flex align-items-end">
-          <h5 class="card-title text-white">{{ player.nombre }}</h5>
+        <div class="gradient-background p-3">
+          <h5 class="card-title">{{ player.dorsal }} {{ player.nombre }}</h5>
+          <p class="card-text">{{ player.posicion }}</p>
         </div>
       </div>
     </div>

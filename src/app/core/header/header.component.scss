@@ -1,0 +1,20 @@
+.nav-item{
+    color: rgb(253, 252, 249);
+    font-weight: bold;
+}
+
+.navbar-logo {
+    height: 30pt; /* Ajusta esto a la altura que desees */
+    width: 20pt; /* Esto mantendrá la proporción de la imagen */
+}
+
+.gradient-background {
+    background: linear-gradient(to top, #1b0775, #3423f191); /* Ajusta estos colores a tu color primario */
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px 0;
+    border-bottom-left-radius: 20pt;
+    border-bottom-right-radius: 20pt;
+}

@@ -1,13 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
-$primary: #1b0775;
-$secondary: #5b0415;
+$primary: #5205fa;
+$secondary: #fc1818;
 $info: rgb(247, 217, 49);
 
 @import 'bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-.custom-gradient {
-    background: rgba(27, 7, 117, 0.5);  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, rgba(27, 7, 117, 0.5), rgba(35, 42, 228, 0.5));  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, rgba(27, 7, 117, 0.5), rgba(35, 42, 228, 0.184)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+h1, h2, h3, h4, h5, h6, p, a, span, div, li, button{
+    font-family: 'Montserrat', sans-serif;
 }
+
+select{
+    border-radius: 20pt;
+    border: none;
+    font-size: 10pt;
+}
+
+
+
 

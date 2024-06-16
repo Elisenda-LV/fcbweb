@@ -21,7 +21,8 @@ export class PlayersService {
     return fetch('assets/players.json')
       .then(response => response.json())
       .then(data => data.find((player: { id: number; }) => player.id === id));
+      //.then(data => Array.isArray(data) ? data.find((player: { id: number; }) => player.id === id) : undefined);
   }
-
-
 }
+
+
