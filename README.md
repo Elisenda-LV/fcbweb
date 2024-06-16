@@ -3,7 +3,7 @@
 Angular application developed to display the roster and statistics of FC Barcelona's first team.
 
 
-### Table of Contents
+### 📍Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -15,7 +15,7 @@ Angular application developed to display the roster and statistics of FC Barcelo
 - [License](#license)
 
 
-### Installation
+### 📍Installation
 
 Steps to install the project:
 
@@ -26,7 +26,7 @@ npm install
 ```
 
 
-### Usage
+### 📍Usage
 
 How to start and use the project:
 
@@ -37,7 +37,7 @@ ng serve
 Open [http://localhost:4200](http://localhost:4200) in your browser to see the application.
 
 
-### Project Structure
+### 📍Project Structure
 
 Explanation of the folder and file structure:
 
@@ -54,7 +54,7 @@ src/
   ...
 ```
 
-### Best Practices
+### 📍Best Practices
 
 1. **Clean Code**: Keep the code clear and understandable.
 2. **Reusable Components**: Break your application into small, reusable components.
@@ -62,25 +62,20 @@ src/
 4. **Testing**: Write tests for your code, especially for critical components and services.
  
 
-### Development Tools
+### 📍Development Tools
 
-#### Testing
+#### 🧩Testing
 We've used Karma and Jasmine for testing. Write tests for your code.  To run the tests, use:
 
 '''sh
 ng test
 
-#### Prettier
+#### 🧩Prettier
 
 To maintain consistent formatting throughout the code, we've added Prettier. Prettier will automatically format the code.
 
-To use Prettier, run:
 
-```sh
-npm run prettier
-```
-
-#### ESLint
+#### 🧩ESLint
 
 To ensure we follow best practices and maintain clean code, we've added ESLint. ESLint analyzes the code and highlights potential errors and bad practices.
 
@@ -90,7 +85,7 @@ To run ESLint, use:
 npm run lint
 ```
 
-### Deployment
+### 📍Deployment
 
 The project is deployed on Vercel. You can access the live versions here:
 
