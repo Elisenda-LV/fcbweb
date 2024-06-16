@@ -15,18 +15,18 @@
 <div class="row bg-light">
     <div class="col p-5">
       <div class="card p-4">
-        <h3 class="card-title">Datos personales</h3>
+        <h3 class="card-title">{{ 'estadisticas' | translate }}</h3>
         <div class="card-body d-flex">
           <div class="col">
-            <p>Lugar de nacimiento</p>
+            <p>{{ 'lugar_de_nacimiento' | translate }}</p>
             <p class="card-text">{{ playerCard?.lugarNacimiento }}</p>
-            <p>Peso</p>
+            <p>{{ 'peso' | translate }}</p>
             <p class="card-text">{{ playerCard?.peso }}</p>
           </div>
           <div class="col">
-            <p >Fecha de nacimiento</p>
+            <p >{{ 'fecha_nacimiento' | translate }}</p>
             <p class="card-text">{{ playerCard?.fechaNacimiento }}</p>
-            <p >Altura</p>
+            <p >{{ 'altura' | translate }}</p>
             <p class="card-text">{{ playerCard?.altura }}</p>
           </div>
         </div>
@@ -35,19 +35,19 @@
     <div class="col p-5">
       <div class="card p-4">
         <div class="card-body">
-          <h3 class="card-title">Estadísticas</h3>
+          <h3 class="card-title">{{ 'estadisticas' | translate }}</h3>
           <div class="navbar">
             <div>
               <h5>{{ playerCard?.historicoPartidos }}</h5>
-              <span>Partidos jugados</span>
+              <span>{{ 'historico_partidos' | translate }}</span>
             </div>
             <div>
               <h5>{{ playerCard?.historicoGoles }}</h5>
-            <span>Goles</span>
+            <span>{{ 'historico_goles' | translate }}</span>
             </div>
             <div>
               <h5>{{ playerCard?.historicoAsistencias}}</h5>
-              <span>Asistencias</span>
+              <span>{{ 'historico_asistencias' | translate }}</span>
             </div>
           </div>
         </div>

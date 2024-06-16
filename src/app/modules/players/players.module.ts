@@ -8,8 +8,6 @@ import { TranslateModule, TranslateService } from '@ngx-translate/core';
 import { RouterOutlet } from '@angular/router';
 
 
-
-
 @NgModule({
   declarations: [
     PlayersListComponent,

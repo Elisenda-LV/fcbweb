@@ -1,5 +1,3 @@
-
-  
 <div class="row border pt-5 px-5">
   <h1 class="pt-5">{{ 'primer_equipo' | translate }}</h1>
   <ul class="nav nav-underline justify-content-center pt-5 px-4">
@@ -43,7 +41,7 @@
         <img [src]="player.imgUrl" class="card">
         <div class="gradient-background p-3">
           <h5 class="card-title">{{ player.dorsal }} {{ player.nombre }}</h5>
-          <p class="card-text">{{ player.posicion }}</p>
+          <p class="card-text">{{ player.posicion | translate }}</p>
         </div>
       </div>
     </div>
@@ -58,7 +56,7 @@
         <img [src]="player.imgUrl" class="card">
         <div class="gradient-background p-3">
           <h5 class="card-title">{{ player.dorsal }} {{ player.nombre }}</h5>
-          <p class="card-text">{{ player.posicion }}</p>
+          <p class="card-text">{{ player.posicion | translate }}</p>
         </div>
       </div>
     </div>
@@ -73,7 +71,7 @@
         <img [src]="player.imgUrl" class="card">
         <div class="gradient-background p-3">
           <h5 class="card-title">{{ player.dorsal }} {{ player.nombre }}</h5>
-          <p class="card-text">{{ player.posicion }}</p>
+          <p class="card-text">{{ player.posicion | translate }}</p>
         </div>
       </div>
     </div>
