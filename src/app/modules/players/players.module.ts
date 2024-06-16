@@ -4,8 +4,8 @@ import { PlayersRoutingModule } from './players-routing.module';
 import { PlayersListComponent } from './players-list/players-list.component';
 import { PlayerCardComponent } from './player-card/player-card.component';
 import { RouterModule } from '@angular/router';
-
-
+import { TranslateModule, TranslateService } from '@ngx-translate/core';
+import { RouterOutlet } from '@angular/router';
 
 
 @NgModule({
@@ -17,6 +17,9 @@ import { RouterModule } from '@angular/router';
     CommonModule,
     PlayersRoutingModule,
     RouterModule,
+    TranslateModule,
+    RouterOutlet,
+  
   ]
 })
 export class PlayersModule { }
