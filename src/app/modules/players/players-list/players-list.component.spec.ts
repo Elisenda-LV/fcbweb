@@ -1,11 +1,15 @@
-import { ComponentFixture, TestBed, fakeAsync, tick } from '@angular/core/testing';
+import {
+  ComponentFixture,
+  TestBed,
+  fakeAsync,
+  tick,
+} from '@angular/core/testing';
 import { PlayersListComponent } from './players-list.component';
-import { of, throwError } from 'rxjs';
+import { of } from 'rxjs';
 import { ActivatedRoute, Router } from '@angular/router';
 import { ViewportScroller } from '@angular/common';
 import { PlayersService } from '../../../services/players.service';
 import { TranslateModule } from '@ngx-translate/core';
-
 
 describe('PlayersListComponent', () => {
   let component: PlayersListComponent;
@@ -20,7 +24,7 @@ describe('PlayersListComponent', () => {
     mockRouter = jasmine.createSpyObj(['navigate']);
     mockViewportScroller = jasmine.createSpyObj(['scrollToAnchor']);
     mockActivatedRoute = {
-      fragment: of('testFragment')
+      fragment: of('testFragment'),
     };
 
     TestBed.configureTestingModule({
@@ -29,11 +33,11 @@ describe('PlayersListComponent', () => {
         { provide: PlayersService, useValue: mockPlayersService },
         { provide: Router, useValue: mockRouter },
         { provide: ViewportScroller, useValue: mockViewportScroller },
-        { provide: ActivatedRoute, useValue: mockActivatedRoute }
+        { provide: ActivatedRoute, useValue: mockActivatedRoute },
       ],
       imports: [TranslateModule.forRoot()],
     });
-    
+
     fixture = TestBed.createComponent(PlayersListComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
@@ -51,29 +55,32 @@ describe('PlayersListComponent', () => {
 
   it('should call scrollToAnchor if fragment exists', () => {
     component.ngOnInit();
-    expect(mockViewportScroller.scrollToAnchor).toHaveBeenCalledWith('testFragment');
+    expect(mockViewportScroller.scrollToAnchor).toHaveBeenCalledWith(
+      'testFragment',
+    );
   });
 
   it('should fetch all players on allPlayers call', fakeAsync(() => {
-    let players: any[] = [
-      { 
-        id: 1, 
-        name: 'Player 1', 
-        dorsal: 10, 
-        nombre: 'Player 1', 
-        lugarNacimiento: 'Place 1', 
-        fechaNacimiento: new Date(), 
-        // ... rest of the properties 
-      }, 
-      { 
-        id: 2, 
-        name: 'Player 2', 
-        dorsal: 20, 
-        nombre: 'Player 2', 
-        lugarNacimiento: 'Place 2', 
-        fechaNacimiento: new Date(), 
-        // ... rest of the properties 
-      }
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const players: any[] = [
+      {
+        id: 1,
+        name: 'Player 1',
+        dorsal: 10,
+        nombre: 'Player 1',
+        lugarNacimiento: 'Place 1',
+        fechaNacimiento: new Date(),
+        // ... rest of the properties
+      },
+      {
+        id: 2,
+        name: 'Player 2',
+        dorsal: 20,
+        nombre: 'Player 2',
+        lugarNacimiento: 'Place 2',
+        fechaNacimiento: new Date(),
+        // ... rest of the properties
+      },
     ];
     mockPlayersService.getPlayers.and.returnValue(Promise.resolve(players));
     component.allPlayers();

@@ -1,10 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-
 const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: 'players' },
-  { path: 'players', loadChildren: () => import('./modules/players/players.module').then(m => m.PlayersModule)},
+  {
+    path: 'players',
+    loadChildren: () =>
+      import('./modules/players/players.module').then((m) => m.PlayersModule),
+  },
 ];
 
 @NgModule({
