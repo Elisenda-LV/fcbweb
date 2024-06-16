@@ -21,11 +21,11 @@
     "historico_asistencias": "Historical Assists",
     "historico_porteria_cero": "Historical Clean Sheets",
     "historico_paradas": "Historical Saves",
-    "partidos_temporada_actual": "Matches This Season",
-    "goles_temporada_actual": "Goals This Season",
-    "asistencias_temporada_actual": "Assists This Season",
-    "porteria_cero_temporada_actual": "Clean Sheets This Season",
-    "paradas_temporada_actual": "Saves This Season",
+    "partidos_temporada_actual": "Matches",
+    "goles_temporada_actual": "Goals",
+    "asistencias_temporada_actual": "Assists",
+    "porteria_cero_temporada_actual": "Clean Sheets",
+    "paradas_temporada_actual": "Saves",
     "titular": "Main",
     "comentario": "Comment"
   }

@@ -2,9 +2,8 @@
     border-radius: 20pt;
 }
 
-
 .gradient-background {
-    background: linear-gradient(to top, #1b0775, #3423f191); /* Ajusta estos colores a tu color primario */
+    background: linear-gradient(to top, #1b0775, #3423f191); 
     width: 100%;
     position: absolute;
     bottom: 0;
@@ -12,11 +11,18 @@
     padding: 10px 0;
     border-bottom-left-radius: 20pt;
     border-bottom-right-radius: 20pt;
+    transition: transform 0.3s ease, z-index 0.3s ease;
+}
+
+.gradient-background.move {
+    transform: translateY(-120px);
+    z-index: 2;
 }
 
 .card-text, .card-title {
     color: white;
 }
+
 
 .nav-link, h3 {
     font-weight: bold;
@@ -27,7 +33,25 @@ h1{
     font-size: 40pt;
 }
 
-
+.card-more-info {
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, #1b0775, #3423f191); 
+    color: #fff;
+    padding: 16px;
+    transition: opacity 0.3s ease;
+    z-index: 0;
+    border-bottom-left-radius: 20pt;
+    border-bottom-right-radius: 20pt;
+  }
+  
+  .card-more-info.show {
+    opacity: 1;
+    z-index: 1;
+  }
 
 
 

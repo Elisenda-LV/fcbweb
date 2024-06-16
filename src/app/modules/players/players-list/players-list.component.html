@@ -22,11 +22,30 @@
   <h3 class="py-3">{{ 'porteros'| translate }}</h3>
   <ng-container *ngFor="let player of playersList">
     <div class="col-sm-4" *ngIf="player.posicion === 'Portero'">
-      <div class="card" (click)="viewPlayer(player.id)" >
+      <div class="card" (click)="viewPlayer(player.id)" (mouseover)="player.showStats=true" (mouseout)="player.showStats=false">
           <img [src]="player.imgUrl" class="card">
-          <div class="gradient-background p-3">
-            <h5 class="card-title">{{ player.dorsal }} {{ player.nombre }}</h5>
+          <div class="gradient-background p-3" [class.move]="player.showStats">
+            <h3 class="card-title" >{{ player.dorsal }} {{ player.nombre }}</h3>
             <p class="card-text">{{ player.posicion | translate }}</p>
+          </div>
+          <div class="card-more-info" [class.show]="player.showStats">
+            <div class="navbar text-center"> 
+              <div>
+                <h5>{{ player.partidosTemporadaActual }}</h5>
+                <span>{{ 'partidos_temporada_actual' | translate }}</span>
+              </div>
+              <div>
+                <h5>{{ player.paradasTemporadaActual }}</h5>
+              <span>{{ 'paradas_temporada_actual' | translate }}</span>
+              </div>
+              <div>
+                <h5>{{ player.porteriaCeroTemporadaActual}}</h5>
+                <span>{{ 'porteria_cero_temporada_actual' | translate }}</span>
+              </div>
+            </div>
+            <div class="text-center">
+              <span class="text-info"><strong>2023-2024</strong></span>
+            </div>
           </div>
       </div>
     </div>
@@ -37,11 +56,30 @@
  <h3 class="py-3">{{ 'defensas'| translate }}</h3>
   <ng-container *ngFor="let player of playersList">
     <div class="col-sm-4" *ngIf="player.posicion === 'Defensa'">
-      <div class="card"  (click)="viewPlayer(player.id)">
+      <div class="card"  (click)="viewPlayer(player.id)" (mouseover)="player.showStats=true" (mouseout)="player.showStats=false">
         <img [src]="player.imgUrl" class="card">
-        <div class="gradient-background p-3">
-          <h5 class="card-title">{{ player.dorsal }} {{ player.nombre }}</h5>
+        <div class="gradient-background p-3"  [class.move]="player.showStats">
+          <h3 class="card-title">{{ player.dorsal }} {{ player.nombre }}</h3>
           <p class="card-text">{{ player.posicion | translate }}</p>
+        </div>
+        <div class="card-more-info" [class.show]="player.showStats">
+          <div class="navbar text-center p-2"> 
+            <div>
+              <h5>{{ player.partidosTemporadaActual }}</h5>
+              <span>{{ 'partidos_temporada_actual' | translate }}</span>
+            </div>
+            <div>
+              <h5>{{ player.golesTemporadaActual }}</h5>
+            <span>{{ 'goles_temporada_actual' | translate }}</span>
+            </div>
+            <div>
+              <h5>{{ player.asistenciasTemporadaActual}}</h5>
+              <span>{{ 'asistencias_temporada_actual' | translate }}</span>
+            </div>
+          </div>
+          <div class="text-center">
+            <span class="text-info"><strong>2023-2024</strong></span>
+          </div>
         </div>
       </div>
     </div>
@@ -52,11 +90,30 @@
   <h3 class="py-3">{{ 'centrocampistas'| translate }}</h3>
   <ng-container  *ngFor="let player of playersList">
     <div class="col-sm-4" *ngIf="player.posicion === 'Centrocampista'">
-      <div class="card"  (click)="viewPlayer(player.id)">
+      <div class="card"  (click)="viewPlayer(player.id)"  (mouseover)="player.showStats=true" (mouseout)="player.showStats=false">
         <img [src]="player.imgUrl" class="card">
-        <div class="gradient-background p-3">
-          <h5 class="card-title">{{ player.dorsal }} {{ player.nombre }}</h5>
+        <div class="gradient-background p-3" [class.move]="player.showStats">
+          <h3 class="card-title">{{ player.dorsal }} {{ player.nombre }}</h3>
           <p class="card-text">{{ player.posicion | translate }}</p>
+        </div>
+        <div class="card-more-info" [class.show]="player.showStats">
+          <div class="navbar text-center p-2"> 
+            <div>
+              <h5>{{ player.partidosTemporadaActual }}</h5>
+              <span>{{ 'partidos_temporada_actual' | translate }}</span>
+            </div>
+            <div>
+              <h5>{{ player.golesTemporadaActual }}</h5>
+            <span>{{ 'goles_temporada_actual' | translate }}</span>
+            </div>
+            <div>
+              <h5>{{ player.asistenciasTemporadaActual}}</h5>
+              <span>{{ 'asistencias_temporada_actual' | translate }}</span>
+            </div>
+          </div>
+          <div class="text-center">
+            <span class="text-info"><strong>2023-2024</strong></span>
+          </div>
         </div>
       </div>
     </div>
@@ -67,11 +124,30 @@
   <h3 class="py-3" >{{ 'delanteros'| translate }}</h3>
   <ng-container *ngFor="let player of playersList">
     <div class="col-sm-4" *ngIf="player.posicion === 'Delantero'">
-      <div class="card"  (click)="viewPlayer(player.id)">
+      <div class="card"  (click)="viewPlayer(player.id)" (mouseover)="player.showStats=true" (mouseout)="player.showStats=false">
         <img [src]="player.imgUrl" class="card">
-        <div class="gradient-background p-3">
-          <h5 class="card-title">{{ player.dorsal }} {{ player.nombre }}</h5>
+        <div class="gradient-background p-3" [class.move]="player.showStats">
+          <h3 class="card-title">{{ player.dorsal }} {{ player.nombre }}</h3>
           <p class="card-text">{{ player.posicion | translate }}</p>
+        </div>
+        <div class="card-more-info" [class.show]="player.showStats">
+          <div class="navbar text-center p-2"> 
+            <div>
+              <h5>{{ player.partidosTemporadaActual }}</h5>
+              <span>{{ 'partidos_temporada_actual' | translate }}</span>
+            </div>
+            <div>
+              <h5>{{ player.golesTemporadaActual }}</h5>
+            <span>{{ 'goles_temporada_actual' | translate }}</span>
+            </div>
+            <div>
+              <h5>{{ player.asistenciasTemporadaActual}}</h5>
+              <span>{{ 'asistencias_temporada_actual' | translate }}</span>
+            </div>
+          </div>
+          <div class="text-center">
+            <span class="text-info"><strong>2023-2024</strong></span>
+          </div>
         </div>
       </div>
     </div>

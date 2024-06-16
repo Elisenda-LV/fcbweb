@@ -21,4 +21,5 @@ export interface Player {
     titular: string;
     comentario: string;
     imgUrl: string;
+    showStats: boolean;
 }
