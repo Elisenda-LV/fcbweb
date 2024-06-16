@@ -1,3 +1,10 @@
+<div class="navbar d-flex justify-content-end">    
+    <select class="px-3 py-1" [(ngModel)]="selectedLanguage" (change)="onLanguageChange()">
+        <option value="en">Inglés</option>
+        <option value="es">Castellano</option>
+        <option value="ca">Català</option>
+    </select>
+</div>
 <app-header></app-header>
 <router-outlet />
 <app-footer></app-footer>
