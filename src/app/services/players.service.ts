@@ -8,21 +8,28 @@ export class PlayersService {
 
   constructor() { }
 
-  //servicio para extrar los datos de los jugadores del archivo players.json
   getPlayers(): Promise<Player[]> {
     return fetch('assets/players.json')
       .then(response => response.json())
       .then(data => data.players);
       
+  } 
+
+  getPlayerById(id: string) : Promise<Player> {
+    return this.getPlayers()
+    .then(players => {
+      const player = players.find(player => player.id === id);
+      if (!player) {
+        throw new Error('Player not found');
+      }
+
+      return player;
+    })
+    .catch(error => {
+      console.error('Error fetching player:', error);
+      throw error;
+    });
   }
 
-  //servicio para extraer los datos de un jugador en especifico
-  getPlayer(id: number): Promise<Player | undefined>{
-    return fetch('assets/players.json')
-      .then(response => response.json())
-      .then(data => data.find((player: { id: number; }) => player.id === id));
-      //.then(data => Array.isArray(data) ? data.find((player: { id: number; }) => player.id === id) : undefined);
-  }
 }
-
 

@@ -13,36 +13,33 @@ import { Player } from '../../../models/players.interface';
 export class PlayerCardComponent implements OnInit{
 
   public playersService = inject(PlayersService)
-  public playersList: Player[] = [];
+  public playerCard:Player | null = null;
   public playerId: string = '';
 
   constructor( private route: ActivatedRoute){
-    this.playersList = [];
+    this.playerCard = null;
   }
 
   ngOnInit(): void {
     this.route.paramMap.subscribe(params => {
       this.playerId = params.get('id')!;
       if (this.playerId) {
-        this.showPlayerbyId(this.playerId);
+        this.showPlayerById(this.playerId);
       }
     });
 
   }
-
-  showPlayerbyId(playerId: any) {
-    this.playersService.getPlayer(playerId)
-      .then(player => {
-        if (player) {
-          this.playersList = [player];
-          console.log(this.playersList);
-        } else {
-          console.error('Player not found');
-        }
-      })
-      .catch(error => {
-        console.error('Error fetching player:', error);
-      });      
+ //Función que obtenga el id de playerID y lo muestre en la vista
+  showPlayerById(id: string): void {
+    this.playersService.getPlayerById(id)
+    .then(player => {
+      this.playerCard = player;
+      console.log('Player:', player);
+      console.log('PlayerCard:', this.playerCard);
+    })
+    .catch(error => {
+      console.error('Error fetching player:', error);
+    });
   }
 
 }

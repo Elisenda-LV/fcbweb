@@ -42,7 +42,7 @@ export class PlayersListComponent implements OnInit{
     });
   }
   
-  viewPlayer(id: number) {
+  viewPlayer(id: string) {
     this.router.navigate(['/players', id]);
     
   }
