@@ -1,27 +1,112 @@
-# Fcbweb
+# Fcb Web
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
+Angular application developed to display the roster and statistics of FC Barcelona's first team.
 
-## Development server
+## Table of Contents
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Best Practices](#best-practices)
+- [Development Tools](#development-tools)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Code scaffolding
+## Installation
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Steps to install the project:
 
-## Build
+```sh
+git clone https://github.com/Elisenda-LV/fcbweb
+cd fcbweb
+npm install
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Usage
 
-## Running unit tests
+How to start and use the project:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```sh
+ng serve
+```
 
-## Running end-to-end tests
+Open [http://localhost:4200](http://localhost:4200) in your browser to see the application.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Project Structure
 
-## Further help
+Explanation of the folder and file structure:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```
+src/
+  app/
+    core/
+    models/
+    modules/
+    services/
+    ...
+  assets/
+    i18n/
+  ...
+```
+
+## Best Practices
+
+1. **Clean Code**: Keep the code clear and understandable.
+2. **Reusable Components**: Break your application into small, reusable components.
+3. **Use of Services**: Encapsulate business logic and data access in services.
+4. **Testing**: Write tests for your code, especially for critical components and services.
+ 
+
+## Development Tools
+
+### Testing
+We've used Karma and Jasmine for testing. Write tests for your code.  To run the tests, use:
+
+'''sh
+ng test
+
+### Prettier
+
+To maintain consistent formatting throughout the code, we've added Prettier. Prettier will automatically format the code.
+
+To use Prettier, run:
+
+```sh
+npm run prettier
+```
+
+### ESLint
+
+To ensure we follow best practices and maintain clean code, we've added ESLint. ESLint analyzes the code and highlights potential errors and bad practices.
+
+To run ESLint, use:
+
+```sh
+npm run lint
+```
+
+## Deployment
+
+The project is deployed on Vercel. You can access the live versions here:
+
+Develop Branch: https://dev-fcbweb.vercel.app/players
+Master Branch: https://prod-fcbweb.vercel.app/
+
+## Contributing
+
+If you wish to contribute, please follow these steps:
+
+1. Fork the repository.
+2. Create a branch with a new feature (`git checkout -b feature/new-feature`).
+3. Make your changes and commit (`git commit -m 'Add new feature'`).
+4. Push your changes (`git push origin feature/new-feature`).
+5. Open a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+This is just a basic example, and you can adjust it according to the specific needs of your project. Remember to include all the relevant information that a new collaborator or user of the project might need.
