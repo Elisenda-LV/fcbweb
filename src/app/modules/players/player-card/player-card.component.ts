@@ -29,7 +29,7 @@ export class PlayerCardComponent implements OnInit{
     });
 
   }
- //Función que obtenga el id de playerID y lo muestre en la vista
+
   showPlayerById(id: string): void {
     this.playersService.getPlayerById(id)
     .then(player => {
