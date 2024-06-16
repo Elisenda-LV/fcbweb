@@ -4,3 +4,21 @@
     border-radius: 50%;
 }
 
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text{
+    font-weight: bold;
+}
+
+.card{
+    border-radius: 20pt;
+    border:none;
+    box-shadow: 0 0 10pt 0 rgba(47, 6, 230, 0.1);
+}

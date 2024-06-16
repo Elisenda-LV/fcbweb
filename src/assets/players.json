@@ -1,7 +1,7 @@
 {
     "players": [
         {
-            "id": 1,
+            "id": "1",
             "dorsal": 1,
             "nombre": "Marc-André ter Stegen",
             "lugarNacimiento": "Mönchengladbach, Alemania",
@@ -25,7 +25,7 @@
             "imgUrl":"https://www.fcbarcelona.com/photo-resources/2023/10/03/065aed35-fbcb-441a-9951-b35e38ecd654/01-MARC-ANDRE_TER_STEGEN.jpg?width=470&height=470"
         },
         {
-            "id": 2,
+            "id": "2",
             "dorsal": 2,
             "nombre": "Joao Cancelo",
             "lugarNacimiento": "Almere, Países Bajos",
@@ -49,7 +49,7 @@
             "imgUrl":"https://www.fcbarcelona.com/photo-resources/2023/10/03/57225d94-0fe9-42a4-9123-5499e390c727/jugador_fitxa-cancelo.jpg?width=470&height=470"
         },
         {
-            "id": 3,
+            "id": "3",
             "dorsal": 3,
             "nombre": "Alejandro Balde",
             "lugarNacimiento": "Barcelona, España",
@@ -73,7 +73,7 @@
             "imgUrl":"https://www.fcbarcelona.com/photo-resources/2023/10/03/e80f5515-86fd-4f2f-98ea-964754a3700f/mini_28-BALDE.jpg?width=470&height=470"
         },
         {
-            "id": 4,
+            "id": "4",
             "dorsal": 4,
             "nombre": "Ronald Araujo",
             "lugarNacimiento": "Barcelona, España",
@@ -97,7 +97,7 @@
             "imgUrl":"https://www.fcbarcelona.com/photo-resources/2023/10/03/056cd416-68bc-4e1b-b28d-3aad786991aa/04-RONALD_ARAUJO_.jpg?width=470&height=470"
         },
         {
-            "id": 5,
+            "id": "5",
             "dorsal": 5,
             "nombre": "Iñigo Martinez",
             "lugarNacimiento": "Barcelona, España",
@@ -121,7 +121,7 @@
             "imgUrl":"https://www.fcbarcelona.com/photo-resources/2023/10/03/c944cb0d-785f-4fb8-8df8-d66db299ae29/jugador_fitxa_inigo_2023.jpg?width=470&height=470"
         },
         {
-            "id": 21,
+            "id": "21",
             "dorsal": 21,
             "nombre": "Frenkie de Jong",
             "lugarNacimiento": "Barcelona, España",
@@ -145,7 +145,7 @@
             "imgUrl":"https://www.fcbarcelona.com/photo-resources/2023/10/03/8faa89e1-0979-4adf-a2f7-ef5fe5ac8882/21-FRENKIE_DE_JONG.jpg?width=470&height=470"
         },
         {
-            "id": 6,
+            "id": "6",
             "dorsal": 6,
             "nombre": "Gavi",
             "lugarNacimiento": "Los Palacios y Villafranca, España",
@@ -169,7 +169,7 @@
             "imgUrl":"https://www.fcbarcelona.com/photo-resources/2023/10/03/31981b2e-6770-4553-b735-214c75b62fb8/30-GAVI_.jpg?width=470&height=470"
         },
         {
-            "id": 7,
+            "id": "7",
             "dorsal": 7,
             "nombre": "Ferran Torres",
             "lugarNacimiento": "Barcelona, España",
@@ -193,7 +193,7 @@
             "imgUrl":"https://www.fcbarcelona.com/photo-resources/2023/10/03/2490df3e-e60a-4b90-adac-55a6d4a5ac49/11-FERRAN_TORRES.jpg?width=470&height=470"
         },
         {
-            "id": 8,
+            "id": "8",
             "dorsal": 8,
             "nombre": "Pedri",
             "lugarNacimiento": "Tegueste, España",
@@ -217,7 +217,7 @@
             "imgUrl":"https://www.fcbarcelona.com/photo-resources/2023/10/03/312eb594-c79b-4c68-8f52-c057faeaf4ca/08-PEDRI.jpg?width=470&height=470"
         },
         {
-            "id": 9,
+            "id": "9",
             "dorsal": 9,
             "nombre": "Robert Lewandowski",
             "lugarNacimiento": "Varsovia, Polonia",
@@ -241,7 +241,7 @@
             "imgUrl":"https://www.fcbarcelona.com/photo-resources/2023/10/03/828a7bce-f622-464d-8513-7108c6e63fe8/09-ROBERT_LEWANDOWSKI.jpg?width=470&height=470"
         },
         {
-            "id": 11,
+            "id": "11",
             "dorsal": 11,
             "nombre": "Raphinha",
             "lugarNacimiento": "Porto Alegre, Brasil",
@@ -265,7 +265,7 @@
             "imgUrl":"https://www.fcbarcelona.com/photo-resources/2023/10/03/8accdb83-c06d-4dcd-bbd1-c9978690b5cd/22-RAPHINHA.jpg?width=470&height=470"
         },
         {
-            "id": 13,
+            "id": "13",
             "dorsal": 13,
             "nombre": "Iñaki Peña",
             "lugarNacimiento": "Barcelona, España",
@@ -289,7 +289,7 @@
              "imgUrl":"https://www.fcbarcelona.com/photo-resources/2023/10/03/bd8d767c-875f-45f5-a67b-4547b2393119/26-INAKI_PENA.jpg?width=470&height=470"
         },
         {
-            "id": 20,
+            "id": "20",
             "dorsal": 20,
             "nombre": "Sergi Roberto",
             "lugarNacimiento": "Reus, España",
@@ -313,7 +313,7 @@
             "imgUrl":"https://www.fcbarcelona.com/photo-resources/2023/10/03/d07ea506-60fb-4beb-a016-ba22d7a18b6e/20-S_ROBERTO.jpg?width=470&height=470"
         },
         {
-            "id": 22,
+            "id": "22",
             "dorsal": 22,
             "nombre": "Ilkay Gündogan",
             "lugarNacimiento": "Gelsenkirchen, Alemania",
@@ -337,7 +337,7 @@
             "imgUrl":"https://www.fcbarcelona.com/photo-resources/2023/10/03/0f384b06-9ea4-4b26-8a21-02f23d564463/jugador_fitxa-gundogan.jpg?width=470&height=470"
         },
         {
-            "id": 18,
+            "id": "18",
             "dorsal": 18,
             "nombre": "Oriol Romeu",
             "lugarNacimiento": "Ulldecona, España",
@@ -361,7 +361,7 @@
             "imgUrl":"https://www.fcbarcelona.com/photo-resources/2023/10/03/81c5ac8a-5152-46e8-af05-91468ce009e5/jugador_fitxa-oriol_romeu.jpg?width=470&height=470"
         },
         {
-            "id": 16,
+            "id": "16",
             "dorsal": 16,
             "nombre": "Fermín López",
             "lugarNacimiento": "El Campillo, España",
@@ -385,7 +385,7 @@
             "imgUrl":"https://www.fcbarcelona.com/photo-resources/2024/02/01/4594c085-fa9b-4900-816a-8e7c99e2e625/mini_16-FERMIN.jpg?width=470&height=470"
         },
         {
-            "id": 17,
+            "id": "17",
             "dorsal": 17,
             "nombre": "Marcos Alonso",
             "lugarNacimiento": "Madrid, España",
@@ -409,7 +409,7 @@
             "imgUrl":"https://www.fcbarcelona.com/photo-resources/2023/10/03/89c528ee-1f80-45af-a555-61169e4d07fe/17-MARCOS_ALONSO.jpg?width=470&height=470"
         },
         {
-            "id": 19,
+            "id": "19",
             "dorsal": 19,
             "nombre": "Vitor Roque Junior",
             "lugarNacimiento": "São Paulo, Brasil",
@@ -433,7 +433,7 @@
             "imgUrl":"https://www.fcbarcelona.com/photo-resources/2024/01/05/1f5ecf24-2a9e-4b96-af12-d22412ee58d2/19-VITOR_ROQUE.jpg?width=470&height=470"
         },
         {
-            "id": 23,
+            "id": "23",
             "dorsal": 23,
             "nombre": "Jules Koundé",
             "lugarNacimiento": "Paris, Francia",
@@ -457,7 +457,7 @@
             "imgUrl":"https://www.fcbarcelona.com/photo-resources/2023/10/03/f776072c-2897-466a-bf43-f088fffa1234/23-JULES_KOUNDE.jpg?width=470&height=470"
         },
         {
-            "id": 14,
+            "id": "14",
             "dorsal": 14,
             "nombre": "Joao Felix",
             "lugarNacimiento": "Viseu Portugal",
@@ -481,7 +481,7 @@
             "imgUrl":"https://www.fcbarcelona.com/photo-resources/2023/10/03/a59c808c-1068-45bd-a861-db3d785e200a/jugador_fitxa-felix.jpg?width=470&height=470"
         },
         {
-            "id": 15,
+            "id": "15",
             "dorsal": 15,
             "nombre": "Andreas Christensen",
             "lugarNacimiento": "Lillerød, Dinamarca",

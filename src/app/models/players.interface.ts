@@ -1,5 +1,5 @@
 export interface Player {
-    id: number;
+    id: string;
     dorsal: number;
     nombre: string;
     lugarNacimiento: string;
