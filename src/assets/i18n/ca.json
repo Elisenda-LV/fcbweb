@@ -21,11 +21,11 @@
   "historico_asistencias": "Històric d'Assistències",
   "historico_porteria_cero": "Històric de Porteria a Zero",
   "historico_paradas": "Històric de Parades",
-  "partidos_temporada_actual": "Partits en la Temporada Actual",
-  "goles_temporada_actual": "Gols en la Temporada Actual",
-  "asistencias_temporada_actual": "Assistències en la Temporada Actual",
-  "porteria_cero_temporada_actual": "Porteria a Zero en la Temporada Actual",
-  "paradas_temporada_actual": "Parades en la Temporada Actual",
+  "partidos_temporada_actual": "Partits",
+  "goles_temporada_actual": "Gols",
+  "asistencias_temporada_actual": "Assistències",
+  "porteria_cero_temporada_actual": "Porteria a 0",
+  "paradas_temporada_actual": "Parades",
   "titular": "Titular",
   "comentario": "Comentari"
 }
