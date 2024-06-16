@@ -1,19 +1,18 @@
 <nav class="navbar navbar-dark bg-black p-3">
   <div class="container-fluid">
-    <img src="/src/assets/img/logo.png" alt="fcbarcelona" class="navbar-logo">
-    <a class="navbar-brand"><strong>FCB</strong>ARCELONA</a>
+    <img src="assets/img/barca.png" alt="fcbarcelona" class="barca-logo p-1 ms-3">
     <ul class="nav">
       <li class="nav-item  me-5">{{ 'club'| translate }}</li>
       <li class="nav-item  me-5">{{ 'culers'| translate }}</li>
       <li class="nav-item  me-5">{{ 'entradas'| translate }}</li>
       <li class="nav-item  me-5">{{ 'calendario'| translate }}</li>
-      <li class="nav-item  me-5">{{ 'tienda'| translate }}</li>
-      <li class="nav-item  me-5"><img src="/src/assets/img/logonike.jpg" alt="nike" class="navbar-logo"></li>
-      <li class="nav-item  me-5"><img src="/src/assets/img/logospotify.jpg" alt="spotify" class="navbar-logo"></li>
+      <li class="nav-item me-5">{{ 'tienda'| translate }}</li>
+      <li><span class="material-symbols-outlined">search</span></li>
     </ul>
-    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+    <div>
+      <img src="assets/img/logonike.jpg" alt="nike" class="navbar-logo me-5">
+      <img src="assets/img/logo.png" alt="spotify" class="spoti-logo me-4">
+    </div>
   </div>
 </nav>
 <div class="row bg-secondary p-1"></div> 

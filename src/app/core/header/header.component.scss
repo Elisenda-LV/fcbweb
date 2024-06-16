@@ -1,15 +1,14 @@
 .nav-item{
     color: rgb(253, 252, 249);
-
 }
 
 .navbar-logo {
-    height: 30pt; /* Ajusta esto a la altura que desees */
-    width: 20pt; /* Esto mantendrá la proporción de la imagen */
+    height: 30pt; 
+    width: 20pt;
 }
 
 .gradient-background {
-    background: linear-gradient(to top, #1b0775, #3423f191); /* Ajusta estos colores a tu color primario */
+    background: linear-gradient(to top, #1b0775, #3423f191);
     width: 100%;
     position: absolute;
     bottom: 0;
@@ -17,4 +16,24 @@
     padding: 10px 0;
     border-bottom-left-radius: 20pt;
     border-bottom-right-radius: 20pt;
+}
+
+.barca-logo{
+    height: 60pt; 
+    width: 60pt; 
+}
+
+.navbar-logo {
+    height: 50pt; 
+    width: 60pt; 
+}
+
+.spoti-logo {
+    height: 40pt;
+    width: 40pt; 
+}
+
+.material-symbols-outlined {
+    font-size: 18pt;
+    color: white;
 }
