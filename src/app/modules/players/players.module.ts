@@ -7,9 +7,14 @@ import { RouterModule } from '@angular/router';
 import { TranslateModule } from '@ngx-translate/core';
 import { RouterOutlet } from '@angular/router';
 import { PlayersService } from '../../services/players.service';
+import { PlayerStatisticsComponent } from './player-card/player-statistics/player-statistics.component';
 
 @NgModule({
-  declarations: [PlayersListComponent, PlayerCardComponent],
+  declarations: [
+    PlayersListComponent,
+    PlayerCardComponent,
+    PlayerStatisticsComponent,
+  ],
   imports: [
     CommonModule,
     PlayersRoutingModule,
