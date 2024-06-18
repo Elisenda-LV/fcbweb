@@ -11,14 +11,11 @@ import { ViewportScroller } from '@angular/common';
 })
 export class PlayersListComponent implements OnInit {
   public playersService = inject(PlayersService);
+  private router = inject(Router);
+  private route = inject(ActivatedRoute);
+  private viewportScroller = inject(ViewportScroller);
   public playersList: Player[] = [];
   public errorMessage: string = '';
-
-  constructor(
-    private router: Router,
-    private route: ActivatedRoute,
-    private viewportScroller: ViewportScroller,
-  ) {}
 
   ngOnInit(): void {
     this.route.fragment.subscribe((fragment) => {
@@ -37,6 +34,7 @@ export class PlayersListComponent implements OnInit {
         this.playersList = data;
         console.log('Players:', this.playersList);
       })
+      //TODO throw error y controlar errores en la página.
       .catch((error) => {
         console.error('Error fetching players:', error);
       });

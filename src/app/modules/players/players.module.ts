@@ -6,6 +6,7 @@ import { PlayerCardComponent } from './player-card/player-card.component';
 import { RouterModule } from '@angular/router';
 import { TranslateModule } from '@ngx-translate/core';
 import { RouterOutlet } from '@angular/router';
+import { PlayersService } from '../../services/players.service';
 
 @NgModule({
   declarations: [PlayersListComponent, PlayerCardComponent],
@@ -16,5 +17,6 @@ import { RouterOutlet } from '@angular/router';
     TranslateModule,
     RouterOutlet,
   ],
+  providers: [PlayersService],
 })
 export class PlayersModule {}

@@ -1,12 +1,11 @@
 import { Injectable } from '@angular/core';
 import { Player } from '../models/players.interface';
+import { PlayersModule } from '../modules/players/players.module';
 
 @Injectable({
-  providedIn: 'root',
+  providedIn: PlayersModule,
 })
 export class PlayersService {
-  constructor() {}
-
   getPlayers(): Promise<Player[]> {
     return fetch('assets/players.json')
       .then((response) => response.json())

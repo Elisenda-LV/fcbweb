@@ -25,7 +25,7 @@ export class PlayerCardComponent implements OnInit {
       }
     });
   }
-
+  //TODO throw y mostrar errores pagina error .log
   showPlayerById(id: string): void {
     this.playersService
       .getPlayerById(id)
