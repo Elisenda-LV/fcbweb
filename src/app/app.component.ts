@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit, isDevMode } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
@@ -6,7 +6,7 @@ import { TranslateService } from '@ngx-translate/core';
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = 'fcbweb';
   selectedLanguage = 'es';
 
@@ -14,6 +14,14 @@ export class AppComponent {
     translateService.setDefaultLang('en');
     this.selectedLanguage = 'en';
     this.translateService.use(this.selectedLanguage);
+  }
+
+  ngOnInit() {
+    if (isDevMode()) {
+      console.log('Development!');
+    } else {
+      console.log('Production!');
+    }
   }
 
   onLanguageChange() {
