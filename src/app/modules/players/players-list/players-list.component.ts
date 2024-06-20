@@ -1,8 +1,8 @@
 import { Component, inject, OnInit } from '@angular/core';
 import { PlayersService } from '../../../services/players.service';
-import { Player } from '../../../models/players.interface';
 import { Router, ActivatedRoute } from '@angular/router';
 import { ViewportScroller } from '@angular/common';
+import { Player } from '../../../models/player.model';
 
 @Component({
   selector: 'app-players-list',

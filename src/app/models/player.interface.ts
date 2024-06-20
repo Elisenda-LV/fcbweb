@@ -1,11 +1,6 @@
-export interface Player {
-  id: string;
-  dorsal: number;
-  nombre: string;
-  lugarNacimiento: string;
-  fechaNacimiento: string;
-  peso: number;
-  altura: number;
+import { IPerson } from './person.interface';
+
+export interface IPlayer extends IPerson {
   debut: string;
   posicion: string;
   historicoPartidos: number;

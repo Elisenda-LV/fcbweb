@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { Player } from '../models/players.interface';
 import { PlayersModule } from '../modules/players/players.module';
+import { Player } from '../models/player.model';
 
 @Injectable({
   providedIn: PlayersModule,

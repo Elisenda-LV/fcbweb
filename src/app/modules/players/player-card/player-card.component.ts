@@ -1,7 +1,7 @@
 import { Component, OnInit, inject } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { PlayersService } from '../../../services/players.service';
-import { Player } from '../../../models/players.interface';
+import { Player } from '../../../models/player.model';
 
 @Component({
   selector: 'app-player-card',
